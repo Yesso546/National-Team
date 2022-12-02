@@ -1,0 +1,79 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 100%;
+  background-image:url("img/ftf.png") , url("img/tunisia.png") ;
+  background-repeat: no-repeat;
+  background-size: 150px 100px, 100%;
+  background-position: 1060px 10px,0 0;
+  background-attachment:fixed,scroll;
+
+}
+form {
+  position: absolute;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+  background-color: white;
+  padding: 10px;
+}
+
+fieldset {
+  padding: 0 20px 20px 20px;
+  margin-bottom: 10px;
+  border: 5px solid red;
+  border-radius: 5px;
+}
+legend {
+  color: red;
+  font-weight: bold;
+}
+label{
+  display: block;
+  margin-top: 10px;
+}
+label .inline {
+  display: inline ;
+  margin-right:50px;
+}
+input, textarea, select ,option {
+  background-color: azure;
+}
+
+input, textarea, select{
+  padding:3px;
+  border:1px solid brown;
+  border-radius:10px;
+  width:200px;
+  box-shadow:1px 1px 2px brown;
+}
+
+select {
+  margin-top: 10px;
+  outline:none;
+}
+input [type=radio] {
+  background-color: transparent;
+  border:none;
+  width:10px;
+}
+input[type=submit], input[type=reset] {
+  width:100px;
+  margin-left:5px;
+  box-shadow:3px 3px red;
+  cursor:pointer;
+
+}
+input:focus,textarea:focus {
+  background-color: white;
+  outline:none;
+}
+input [type=submit]:hover, input[type=reset]:hover {
+  background-color: beige;
+}
+input [type=submit]:active, input[type=reset]:active {
+  background-color: azure;
+  box-shadow:3px 3px beige inset;
+}
+p.center{
+  text-align:center;
+}
